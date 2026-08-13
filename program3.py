@@ -1,0 +1,17 @@
+#Python Program to read and display the student data using input and print function
+
+uid = int(input("Enter the UID  "))
+sname = input("Enter the name  ")
+course = input("Enter the course  ")
+cgpa = float(input("Enter the Cgpa  "))
+add = input("Enter the address  ")
+cname = input("Enter the college name  ")
+print("\n")
+print("STUDENT DETAILS")
+print("Student UID is",  uid)
+print("Student name is ",  sname)
+print("Student course is ",  course)
+print("Student CGPA is ",  cgpa)
+print("Student address is ",  add)
+print("College name is ",  cname)
+print("Thank You")
